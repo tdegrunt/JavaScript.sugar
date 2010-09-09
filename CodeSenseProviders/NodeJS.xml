@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+CodeSense Providers map contexts in a document to possible completions. The actual completions are defined in the various CodeSense libraries, categorized using their key. A CodeSense Provider tells Espresso what CodeSense libraries are active in the current context. One of these XML files can contain many <provider> elements.
+
+-->
+<codesense>
+	
+	<!-- Modules -->
+	<provider>
+		<selector>sourcecode.js</selector>
+		<completions>org.neptun3.javascript.node.sys.methods</completions>
+		<complete-match capture="2">(sys)\.([a-zA-Z0-9-]*)</complete-match>
+	</provider>
+
+  <provider>
+  	<selector>sourcecode.js</selector>
+  	<completions>org.neptun3.javascript.node.process.methods</completions>
+  	<complete-match capture="2">(process)\.([a-zA-Z0-9-]*)</complete-match>
+  </provider>
+	
+  <provider>
+  	<selector>sourcecode.js</selector>
+  	<completions>org.neptun3.javascript.node.fs.methods</completions>
+  	<complete-match capture="2">(fs)\.([a-zA-Z0-9-]*)</complete-match>
+  </provider>
+		
+</codesense>

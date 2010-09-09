@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+CodeSense Libraries simply define lists of completions, categorized by keys. They don't define any criteria for when they should be used; this is the domain of a CodeSense Provider.
+
+-->
+<codesense version="1.0">
+	
+	<set name="org.neptun3.javascript.node.sys.methods">
+		<completion string="print" />
+		<completion string="debug" />
+		<completion string="log" />
+		<completion string="inspect" />
+		<completion string="pump" />
+  </set>
+
+  <set name="org.neptun3.javascript.node.process.methods">
+  	<completion string="stdout" />
+  	<completion string="openStdin" />
+  	<completion string="argv" />
+  	<completion string="execPath" />
+  	<completion string="chdir" />
+  	<completion string="compile" />
+  	<completion string="cwd" />
+  	<completion string="env" />
+  	<completion string="exit" />
+  	<completion string="getgid" />
+  	<completion string="setgid" />
+  	<completion string="getuid" />
+  	<completion string="setuid" />
+  	<completion string="version" />
+  	<completion string="installPrefix" />
+  	<completion string="kill" />
+  	<completion string="pid" />
+  	<completion string="title" />
+  	<completion string="platform" />
+  	<completion string="memoryUsage" />
+  	<completion string="nextTick" />
+  	<completion string="umask" />
+  </set>
+  
+  <set name="org.neptun3.javascript.node.fs.methods">
+    <completion string="rename" />
+    <completion string="renameSync" />
+    <completion string="truncate" />
+    <completion string="truncateSync" />
+    <completion string="chmod" />
+    <completion string="chmodSync" />
+    <completion string="stat" />
+    <completion string="lstat" />
+    <completion string="fstat" />
+    <completion string="statSync" />
+    <completion string="lstatSync" />
+    <completion string="fstatSync" />
+    <completion string="link" />
+    <completion string="linkSync" />
+    <completion string="symlink" />
+    <completion string="symlinkSync" />
+    <completion string="readlink" />
+    <completion string="readlinkSync" />
+    <completion string="realpath" />
+    <completion string="realpathSync" />
+    <completion string="unlink" />
+    <completion string="unlinkSync" />
+    <completion string="rmdir" />
+    <completion string="rmdirSync" />
+    <completion string="mkdir" />
+    <completion string="mkdirSync" />
+    <completion string="readdir" />
+    <completion string="readdirSync" />
+    <completion string="close" />
+    <completion string="closeSync" />
+    <completion string="open" />
+    <completion string="openSync" />
+    <completion string="write" />
+    <completion string="write" />
+    <completion string="writeSync" />
+    <completion string="writeSync" />
+    <completion string="read" />
+    <completion string="read" />
+    <completion string="readSync" />
+    <completion string="readSync" />
+    <completion string="readFile" />
+    <completion string="readFileSync" />
+    <completion string="writeFile" />
+    <completion string="writeFileSync" />
+    <completion string="watchFile" />
+    <completion string="unwatchFile" />
+  </set>
+	
+</codesense>

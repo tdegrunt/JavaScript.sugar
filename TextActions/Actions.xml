@@ -103,4 +103,19 @@ ${3}]]></text>
       <syntax-context>js, js *</syntax-context>
       <text-trigger>m</text-trigger>
   </snippet>
+  <!-- node.js -->
+  <snippet id="org.neptun3.snippets.javascript.req" category="tools.Snippets">
+      <title>require</title>
+      <text><![CDATA[var $1 = require(${2:'${1:sys}'});
+${3}]]></text>
+      <syntax-context>js, js *</syntax-context>
+      <text-trigger>req</text-trigger>
+  </snippet>
+  <snippet id="org.neptun3.snippets.javascript.log" category="tools.Snippets">
+      <title>console.log</title>
+      <text><![CDATA[console.log('${1:text}');
+${2}]]></text>
+      <syntax-context>js, js *</syntax-context>
+      <text-trigger>log</text-trigger>
+  </snippet>
 </action-recipes>
