@@ -4,7 +4,7 @@
       <title>Prototype</title>
       <text><![CDATA[${1:class_name}.prototype.${2:method_name} = function(${3:first_argument}) {
   ${4:// body...}
-  };]]></text>
+};]]></text>
       <syntax-context>js, js *</syntax-context>
       <text-trigger>proto</text-trigger>
   </snippet>
@@ -12,7 +12,7 @@
       <title>Function</title>
       <text><![CDATA[function ${1:function_name} (${2:argument}) {
   ${3:// body...}
-  }]]></text>
+}]]></text>
       <syntax-context>js, js *</syntax-context>
       <text-trigger>fun</text-trigger>
   </snippet>
@@ -44,12 +44,12 @@ else{${3}};]]></text>
   <snippet id="org.neptun3.snippets.javascript.switch" category="tools.Snippets">
       <title>switch</title>
       <text><![CDATA[switch(${1:expression}) {
-case '${3:case}':
-	${4:// code}
-	break;
-${5}
-default:
-	${2:// code}
+  case '${3:case}':
+	  ${4:// code}
+	  break;
+  ${5}
+  default:
+	  ${2:// code}
 }]]></text>
       <syntax-context>js, js *</syntax-context>
       <text-trigger>switch</text-trigger>
