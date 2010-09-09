@@ -87,4 +87,20 @@ ${3}]]></text>
       <syntax-context>js, js *</syntax-context>
       <text-trigger>wh</text-trigger>
   </snippet>
+  <snippet id="org.neptun3.snippets.javascript.do" category="tools.Snippets">
+      <title>do...while</title>
+      <text><![CDATA[do {
+	${2:/* code */}
+} while (${1:/* condition */});]]></text>
+      <syntax-context>js, js *</syntax-context>
+      <text-trigger>do</text-trigger>
+  </snippet>
+  <snippet id="org.neptun3.snippets.javascript.m" category="tools.Snippets">
+      <title>Object Method</title>
+      <text><![CDATA[${1:method_name}: function(${2:attribute}) {
+	${4}
+}${3:,}]]></text>
+      <syntax-context>js, js *</syntax-context>
+      <text-trigger>m</text-trigger>
+  </snippet>
 </action-recipes>
